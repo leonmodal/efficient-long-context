@@ -1,0 +1,14 @@
+# Phase 0 baseline: single fast bucket (linear attention). ~dev scale.
+d_model: 512
+n_layers: 6
+n_heads: 8
+head_dim: 64
+vocab_size: 50304
+max_seq_len: 8192
+periods: [1]
+chunk_size: 64
+value_source: memory
+use_output_gate: true
+grow: false
+alpha_bias_init: 4.0
+beta_bias_init: -4.0

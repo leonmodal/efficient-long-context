@@ -1,0 +1,14 @@
+[project]
+name = "memflow"
+version = "0.0.1"
+description = "MemFlow: Multi-Timescale Memory-Flow Linear Attention"
+requires-python = ">=3.10"
+dependencies = ["torch", "einops", "numpy"]
+
+[tool.setuptools.packages.find]
+include = ["memflow*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

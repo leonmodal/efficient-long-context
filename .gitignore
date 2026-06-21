@@ -1,0 +1,16 @@
+# envs / caches / os
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# large third-party reference clones (own git history; available upstream)
+/papers/
+/log-linear-attention/
+/TTT/baselines/
+/TTT/In-Place-TTT/
+/TTT/e2e-ttt-paper/
+/TTT/paper/
+/TTT/fair_baselines/
+/TTT/.pytest_cache/
